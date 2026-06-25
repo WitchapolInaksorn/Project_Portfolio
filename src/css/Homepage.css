@@ -231,15 +231,16 @@ body {
 
 
 .dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  display: inline-block;
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50% !important;
+  display: inline-block !important;
+  flex-shrink: 0;
 }
 
-.dot-red { background: #FF5F57; }
-.dot-yellow { background: #FEBC2E; }
-.dot-green { background: #28C840; }
+.dot-red { background: #FF5F57  !important; }
+.dot-yellow { background: #FEBC2E  !important; }
+.dot-green { background: #28C840  !important;}
 
 /* Code syntax */
 .code-keyword { color: #7C3AED; }

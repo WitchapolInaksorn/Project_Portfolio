@@ -59,9 +59,9 @@ export default function About() {
           <FadeInSection direction="left" delay={0.15}>
             <div className="code-card rounded-2xl p-6 font-mono text-sm leading-7 overflow-auto">
               <div className="code-header flex gap-1.5 mb-5">
-                <span className="dot dot-red" />
-                <span className="dot dot-yellow" />
-                <span className="dot dot-green" />
+                <span className="dot dot-red"></span>
+                <span className="dot dot-yellow"></span>
+                <span className="dot dot-green"></span>
               </div>
               <pre className="text-slate-300">
                 <span className="code-keyword">const</span>{" "}
